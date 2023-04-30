@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.linecorp.lbd.signature.DefaultQueryStringSorterTest" time="0.027" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/user/DEV/projects/jmeter-sign-generator/target/test-classes:/Users/user/DEV/projects/jmeter-sign-generator/target/classes:/Users/user/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar:/Users/user/.m2/repository/org/bitcoinj/bitcoinj-core/0.15.6/bitcoinj-core-0.15.6.jar:/Users/user/.m2/repository/org/bouncycastle/bcprov-jdk15to18/1.63/bcprov-jdk15to18-1.63.jar:/Users/user/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/Users/user/.m2/repository/com/google/guava/guava/28.1-android/guava-28.1-android.jar:/Users/user/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/user/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/user/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/user/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/user/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/Users/user/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/user/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/Users/user/.m2/repository/com/squareup/okhttp3/okhttp/3.12.6/okhttp-3.12.6.jar:/Users/user/.m2/repository/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/Users/user/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/user/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/user/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/user/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/user/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/user/DEV/projects/jmeter-sign-generator/target/surefire/surefirebooter7509458269286090282.jar /Users/user/DEV/projects/jmeter-sign-generator/target/surefire 2023-04-30T16-40-02_377-jvmRun1 surefire2321404188733362374tmp surefire_07954750061284716160tmp"/>
+    <property name="surefire.test.class.path" value="/Users/user/DEV/projects/jmeter-sign-generator/target/test-classes:/Users/user/DEV/projects/jmeter-sign-generator/target/classes:/Users/user/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar:/Users/user/.m2/repository/org/bitcoinj/bitcoinj-core/0.15.6/bitcoinj-core-0.15.6.jar:/Users/user/.m2/repository/org/bouncycastle/bcprov-jdk15to18/1.63/bcprov-jdk15to18-1.63.jar:/Users/user/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/Users/user/.m2/repository/com/google/guava/guava/28.1-android/guava-28.1-android.jar:/Users/user/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/user/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/user/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/user/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/user/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/Users/user/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/user/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/Users/user/.m2/repository/com/squareup/okhttp3/okhttp/3.12.6/okhttp-3.12.6.jar:/Users/user/.m2/repository/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/Users/user/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/user/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/user/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/user/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/user/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/user"/>
+    <property name="user.language" value="ko"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/user/DEV/projects/jmeter-sign-generator"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="jdk.vendor.version" value="Zulu 8.68.0.19-CA-macos-aarch64"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/user/DEV/projects/jmeter-sign-generator/target/surefire/surefirebooter7509458269286090282.jar"/>
+    <property name="sun.boot.class.path" value="/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/resources.jar:/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/rt.jar:/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/jsse.jar:/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/jce.jar:/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/charsets.jar:/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/jfr.jar:/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/cat.jar:/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_362-b08"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.6.3"/>
+    <property name="java.endorsed.dirs" value="/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/user/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/vw/794bt1x931j5hc9hw8zzcp100000gn/T/"/>
+    <property name="java.version" value="1.8.0_362"/>
+    <property name="user.dir" value="/Users/user/DEV/projects/jmeter-sign-generator"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/user/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="25.362-b08"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="/Users/user/Library/Java/Extensions:/Users/user/.sdkman/candidates/java/8.0.362-zulu/zulu-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test1" classname="com.linecorp.lbd.signature.DefaultQueryStringSorterTest" time="0.011"/>
+  <testcase name="test2" classname="com.linecorp.lbd.signature.DefaultQueryStringSorterTest" time="0"/>
+</testsuite>
