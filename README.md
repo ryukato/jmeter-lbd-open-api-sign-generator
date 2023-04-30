@@ -1,9 +1,16 @@
 ### Setup JMeter
+#### configure jmeter-sign-generator
 * Run `./mvnw clean package`
 * Copy `./target/jmeter-sign-generator-[version].jar` into `/lib` directory under where jmeter installed.
 
+#### configure user defined variables
+* Add `User Defined Variables` to `HTTP Request`
+* Add `API_KEY` with a value
+* Add `API_SECRET` with a value
+* Add `TEST_USER_ID` with a value, but this is not mandatory
+
 ### How to use this in jmeter
-* Add `HTTP Header Manager` to a `HTTP Request`
+* Add `HTTP Header Manager` to `HTTP Request`
 * Add `BeanShell PreProcessor`
 * Copy below scripts in to the script panel of the beanshell preprocessor
 ```java
