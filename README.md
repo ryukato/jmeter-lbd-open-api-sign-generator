@@ -46,3 +46,8 @@ sampler.getHeaderManager().add(new Header("signature", signature));
 sampler.getHeaderManager().add(new Header("nonce", nonce));
 sampler.getHeaderManager().add(new Header("timestamp", "" + timestamp));
 ```
+
+### Resources
+* [HTTPSamplerBase API](https://jmeter.apache.org/api/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.html)
+* [How to use external library from JMeter](https://loadium.com/blog/use-custom-jars-jmeter-loadium)
+* [LBD OPEN API](https://docs-blockchain.line.biz/api-guide/)
